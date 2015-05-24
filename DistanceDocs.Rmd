@@ -1,0 +1,31 @@
+---
+title: "DistanceDocs"
+output: html_document
+---
+
+
+
+This little application is intended to provide road distances between some European cities.
+
+The data is from Crystal, D. Ed. (1990) The Cambridge Encyclopaedia. Cambridge: Cambridge University Press, which is included in the `datasets` package in R (named `eurodist`).
+
+
+#### Usage
+
+Select origin: one may select an origin city in the selection field.
+
+Bar plot: the chart will sort distances by closest to origin and display a barchart of road distances in kilometres.
+
+Table: the table displays a matrix of the `eurodist` dataset. (Sorry, couldn't figure out how to remove the output decimals.) The table does not sort based on input origin.
+
+#### Suggested enhancements
+
+To make this little app more useful, the following could be added:
+
+1. a destination to display the specific distance between two cities.
+
+2. a map with geocoded locations. The app could then add points for the selected cities and display distances.
+
+
+
+
